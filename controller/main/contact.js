@@ -4,7 +4,7 @@ require("dotenv").config();
 
 var transport = {
   service: "Zoho",
-  host: "smtp.zoho.com", // Don’t forget to replace with the SMTP host of your provider
+  host: "smtp.zoho.com",
   port: 465, //587,
   auth: {
     user: process.env.NODEMAILER_USER,
