@@ -76,7 +76,7 @@ app.use((req, res, next) => {
 });
 const main = require("./routes/main/main");
 
-app.use("/", main);
+app.use("/api/", main);
 
 app.listen(port, () =>
   console.log(`Server listening at http://localhost:${port}`)
