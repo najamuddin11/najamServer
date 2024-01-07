@@ -4,6 +4,12 @@
   "main": "app.js",
   "author": "Najam Uddin",
   "license": "MIT",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
