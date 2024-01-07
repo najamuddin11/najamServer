@@ -5,7 +5,7 @@
   "author": "Najam Uddin",
   "license": "MIT",
   "engines": {
-    "node": "14.x"
+    "node": "20.x"
   },
   "scripts": {
     "start": "node app.js"
